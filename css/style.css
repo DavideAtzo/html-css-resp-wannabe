@@ -136,5 +136,24 @@ img {
     }
  }
 
+ @media screen and (max-width: 480px){
+    .container{
+        max-width: 100%;
+    }
 
- 
+    .steps{
+        max-width: 100%;
+        
+    }
+    .col{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .card{
+        width: 100%;
+    }
+    
+    .row{
+        flex-direction: column;
+    }
+  } 
